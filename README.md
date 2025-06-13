@@ -17,7 +17,7 @@ Aplikasi kolaborasi tim untuk mengelola proyek dengan fitur real-time, dibangun 
 ```bash
 # 1. Clone repositori
 git clone 
-cd  Multi-User Project Management App
+cd  sp_fs_--oktaharissutanto-
 
 # 2. Install dependensi
 npm install
@@ -26,7 +26,7 @@ npm install
 cp .env.example .env
 
 # 4. Edit file .env (isi nilai sesuai kebutuhan)
-#    - DATABASE_URL: URL database (default: SQLite)
+#    - DATABASE_URL: URL database (default: PostgreSql)
 #    - NEXTAUTH_SECRET: String acak yang aman
 
 # 5. Inisialisasi database
